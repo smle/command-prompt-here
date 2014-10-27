@@ -1,0 +1,7 @@
+REGEDIT4
+
+; "Command Prompt Here" (Uninstall)
+; by Jordan Russell - www.jrsoftware.org - jr@jrsoftware.org
+; Last updated: 2000-06-23
+
+[-HKEY_CLASSES_ROOT\Folder\shell\Command Prompt Here-JR]

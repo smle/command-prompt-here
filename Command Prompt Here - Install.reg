@@ -1,0 +1,14 @@
+REGEDIT4
+
+; "Command Prompt Here" (Install)
+; by Jordan Russell - www.jrsoftware.org - jr@jrsoftware.org
+; Last updated: 2000-06-23
+
+[HKEY_CLASSES_ROOT\Folder\shell\Command Prompt Here-JR]
+@="Command Prompt &Here"
+
+[HKEY_CLASSES_ROOT\Folder\shell\Command Prompt Here-JR\command]
+@=hex(2):22,25,53,79,73,74,65,6d,52,6f,6f,74,25,5c,73,79,73,74,65,6d,33,32,5c,\
+  63,6d,64,2e,65,78,65,22,20,2f,6b,20,63,64,20,2f,64,20,22,25,31,22,00
+; the above is a REG_EXPAND_SZ-type value which reads:
+; "%SystemRoot%\system32\cmd.exe" /k cd /d "%1"
